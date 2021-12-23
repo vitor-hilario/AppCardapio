@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!-- FONT-AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div id="container">
+
+        <header>
+            <div id="title">
+                <h1><i class="fas fa-calendar-alt"></i>Cardápio</h1>
+            </div>
+        </header>
+        <main>
+            <section id="content-cards">
+                <div>
+                    <div id="days">
+                        <span>S</span>
+                        <span>T</span>
+                        <span>Q</span>
+                        <span>Q</span>
+                        <span>S</span>
+                    </div>
+                    <div id="slt">
+                        <span><i class="fas fa-exclamation-circle" id="alert"></i> Selecione um dia da semana:</span>
+                    </div>
+                    <select name="" id="week-option">
+                        <option value="0" selected></option>
+                        <option value="1">Segunda-Feira</option>
+                        <option value="2">Terça-Feira</option>
+                        <option value="3">Quarta-Feira</option>
+                        <option value="4">Quinta-Feira</option>
+                        <option value="5">Sexta-Feira</option>
+                    </select>
+                    <button id="btn"><i class="fas fa-search"></i> Buscar</button>
+                    
+                </div>
+            </section>
+            <section id="icon-food">
+                <span>
+                    <i class="fas fa-utensils"></i>
+                </span>
+            </section>
+
+            <!-- MENU -->
+
+            <section id="menu">
+                <div class="cds">
+                    <span>
+                        <h2><i class="fas fa-coffee"></i> Manhã</h2>
+                    </span>
+                    <hr>
+                    <ul id="c1"> 
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="cds">
+                    <span>
+                        <h2><i class="fas fa-coffee"></i> Almoço</h2>
+                    </span>
+                    <hr>
+                    <ul id="c2"> 
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="cds">
+                    <span>
+                        <h2><i class="fas fa-coffee"></i> Tarde</h2>
+                    </span>
+                    <hr>
+                    <ul id="c3">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </section>
+
+        <!-- MENU -->
+        </main>
+        <footer>
+            <div id="footer-container">
+                <span>
+                    <a href="https://vitor-hilario.github.io/Card-pio/"><i class="fab fa-github"></i></a>
+                </span>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

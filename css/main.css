@@ -1,0 +1,66 @@
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+#content-cards{
+    width: 300px;
+}
+#content-cards > div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+}
+
+#btn, #week-option{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    padding: 7px 7px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    
+}
+
+#week-option{
+    background-color: rgba(242, 226, 109, 0.3);
+}
+
+#btn{
+    cursor: pointer;
+    outline: none;
+    background-color: rgba(242, 226, 109, 0.3);
+    transition: .2s all ease-in-out;
+    color: black;
+}
+
+#btn > i{
+    font-size: 0.8rem;
+}
+#btn:hover{
+    opacity: 0.8;
+}
+
+#days{
+    display: none;
+    justify-content: center;
+    gap: 20px;
+    font-weight: bolder;
+}
+
+#days span{
+    transition: 1s all ease-in-out;
+}
+
+
+@media screen and (max-width: 600px){
+    #content-cards{
+        width: 100%;
+    }
+}
+
